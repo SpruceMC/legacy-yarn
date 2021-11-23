@@ -13,6 +13,7 @@ CLASS net/minecraft/class_996 net/minecraft/client/network/ClientPlayerEntity
 	FIELD field_4164 lastSprinting Z
 	FIELD field_4165 ticksSinceLastPositionPacketSent I
 	FIELD field_4167 serverBrand Ljava/lang/String;
+	FIELD field_4169 horseJumpPower F
 	FIELD field_4170 client Lnet/minecraft/class_669;
 	FIELD field_4172 ticksSinceSprintingChanged I
 	FIELD field_4173 renderYaw F
@@ -40,3 +41,4 @@ CLASS net/minecraft/class_996 net/minecraft/client/network/ClientPlayerEntity
 	METHOD method_3297 getServerBrand ()Ljava/lang/String;
 	METHOD method_3298 getStatHandler ()Lnet/minecraft/class_1688;
 	METHOD method_3299 isRidingHorse ()Z
+	METHOD method_3300 getHorseJumpPower ()F
